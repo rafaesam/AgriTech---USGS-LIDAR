@@ -12,7 +12,7 @@ test_requirements = [
     "matplotlib",
     "pdal"
     "sql",
-    "pytest>=3",
+    "pytest",
 ]
 
 setup(
