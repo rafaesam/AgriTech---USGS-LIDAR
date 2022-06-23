@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """ Setup the py-pip-install-test package """
 
 from setuptools import setup, find_packages
