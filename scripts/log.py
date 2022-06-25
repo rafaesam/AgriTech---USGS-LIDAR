@@ -17,7 +17,7 @@ log_file = "app.log"
 # Define Console Handler 
 def get_console_handler():
   console_handler = logging.StreamHandler(sys.stdout)
-  console_handler.setFormatter(FORMATTER)
+  console_handler.setFormatter(formatter)
   return console_handler
 
 #Create Handlers(Filehandler with filename)
