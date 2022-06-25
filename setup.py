@@ -17,15 +17,16 @@ test_requirements = [
 ]
 
 setup(
-    author="Rafaa",
-    email="rafaesam0@gmail.com",
-    python_requires=">=3.6",
+    name="USGS_LIDAR",
+    version="0.1.0",
     description ="AgriTech_USGS_LIDAR",
     install_requires=requirements,
     long_description=readme,
+    author="Rafaa",
+    email="rafaesam0@gmail.com",
+    python_requires=">=3.6",
     include_package_data=True,
     keywords='agritech, pytest, lidar',
-    name="USGS_LIDAR",
     packages=find_packages(include=['scripts', 'scripts.*']),
     test_suite="tests",
     tests_requires=test_requirements,
