@@ -1,0 +1,247 @@
+2022-06-25 19:17:21,559 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 57, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_metadata.csv'
+2022-06-25 19:22:53,538 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 57, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_metadata.csv'
+2022-06-25 19:22:53,538 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 57, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_metadata.csv'
+2022-06-25 19:22:53,538 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 57, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/rafaa_ahmed/miniconda3/envs/my_env/lib/python3.9/site-packages/pandas/io/common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_metadata.csv'
+2022-06-25 19:26:19,203 — FileHandler — INFO — usgs_3dep_metadata read successfully
+2022-06-25 19:26:19,203 — FileHandler — INFO — usgs_3dep_metadata read successfully
+2022-06-25 19:26:19,203 — FileHandler — INFO — usgs_3dep_metadata read successfully
+2022-06-25 19:26:19,203 — FileHandler — INFO — usgs_3dep_metadata read successfully
+2022-06-25 19:26:19,203 — FileHandler — INFO — usgs_3dep_metadata read successfully
+2022-06-25 19:30:36,464 — GetData — ERROR — The boundary is not within the region provided
+NoneType: None
+2022-06-25 19:30:36,464 — GetData — ERROR — The boundary is not within the region provided
+NoneType: None
+2022-06-25 19:30:36,464 — GetData — ERROR — The boundary is not within the region provided
+NoneType: None
+2022-06-25 19:30:36,466 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:30:36,466 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:30:36,466 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:30:36,466 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:30:36,466 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:30:36,466 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:33:36,828 — GetData — ERROR — The boundary is not within the region provided
+NoneType: None
+2022-06-25 19:33:36,828 — GetData — ERROR — The boundary is not within the region provided
+NoneType: None
+2022-06-25 19:33:36,828 — GetData — ERROR — The boundary is not within the region provided
+NoneType: None
+2022-06-25 19:33:36,831 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:33:36,831 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:33:36,831 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:33:36,831 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:33:36,831 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:33:36,831 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:34:13,346 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:34:13,346 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:34:13,346 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:34:13,346 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:34:13,346 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:34:13,346 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:37:31,185 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:37:31,185 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:37:31,185 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:37:31,185 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:37:31,185 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:37:31,185 — FileHandler — ERROR — usgs_3dep_pipeline not found
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/file_handler.py", line 74, in read_json
+    with open(path, 'r') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../assets/usgs_3dep_pipeline.json'
+2022-06-25 19:38:05,414 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:38:05,414 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:38:05,414 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:38:05,414 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:38:05,414 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:38:05,414 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:38:11,724 — GetData — ERROR — error reading geodata, error: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/fetch_data.py", line 150, in get_dep
+    pl.execute()
+RuntimeError: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+2022-06-25 19:38:11,724 — GetData — ERROR — error reading geodata, error: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/fetch_data.py", line 150, in get_dep
+    pl.execute()
+RuntimeError: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+2022-06-25 19:38:11,724 — GetData — ERROR — error reading geodata, error: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/fetch_data.py", line 150, in get_dep
+    pl.execute()
+RuntimeError: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+2022-06-25 19:56:40,308 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:56:40,308 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:56:40,308 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:56:40,308 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:56:40,308 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:56:40,308 — FileHandler — INFO — usgs_3dep_pipeline read successfully
+2022-06-25 19:56:46,607 — GetData — ERROR — error reading geodata, error: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/fetch_data.py", line 150, in get_dep
+    pl.execute()
+RuntimeError: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+2022-06-25 19:56:46,607 — GetData — ERROR — error reading geodata, error: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/fetch_data.py", line 150, in get_dep
+    pl.execute()
+RuntimeError: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+2022-06-25 19:56:46,607 — GetData — ERROR — error reading geodata, error: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.
+Traceback (most recent call last):
+  File "/home/rafaa_ahmed/AgriTech-USGS-LIDAR/scripts/fetch_data.py", line 150, in get_dep
+    pl.execute()
+RuntimeError: writers.las: Couldn't open file '../data/laz/IA_FullState_-10214248.451748682_-10213266.502520395_5000256.405625606_5000759.357759165.laz' for output.

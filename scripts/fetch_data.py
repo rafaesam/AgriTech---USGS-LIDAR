@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import geopandas as gpd
 from log import get_logger
-from gpd_handler import GPDHelper
+from gpd_handler import GPDHandler
 from file_handler import FileHandler
 from shapely.geometry import Polygon
 from pathlib import Path
@@ -12,7 +12,7 @@ from pathlib import Path
 class Config:
   RANDOM_SEED = 27
   ROOT_PATH = Path("../")
-  LOG_FILE = ROOT_PATH / "log/PythonLidara.log"
+  LOG_FILE = ROOT_PATH / "log/LiAR.log"
   DATA_PATH = ROOT_PATH / "data/"
   ASSETS_PATH = ROOT_PATH / "assets/"
   LAZ_PATH = DATA_PATH / "laz"
@@ -62,8 +62,7 @@ class Bounds:
 
 class FetchLidar:
   """ This class retrieves point cloud data from the EPT resource from AWS cloud storage. 
-      It uses PDAL pipeline object for fetching data, 
-      For more details on how pipelines are defined; see http://www.pdal.io/pipeline.htm
+      It uses PDAL pipeline object for fetching data
   """
 
   def __init__(self, epsg: int = 26915):
@@ -76,7 +75,7 @@ class FetchLidar:
     self._file_handler = FileHandler()
     self._logger = get_logger("GetData")
     self._metadata = self._file_handler.read_csv("usgs_3dep_metadata")
-    self._gdf_helper = GPDHelper(self._input_epsg, self.output_epsg)
+    self._gdf_helper = GPDHandler(self._input_epsg, self.output_epsg)
 
   def get_pipeline(self, bounds: str, polygon_str: str, region: str, filename: str):
     """ Loads Pipeline template from JSON file and 

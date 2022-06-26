@@ -9,9 +9,9 @@ from pathlib import Path
 class Config:
   RANDOM_SEED = 27
   ROOT_PATH = Path("../")
-  LOG_FILE = ROOT_PATH / "log/PythonLidara.log"
+  LOG_FILE = ROOT_PATH / "log/PythonLidar.log"
   DATA_PATH = ROOT_PATH / "data/"
-  ASSETS_PATH = ROOT_PATH / "assets/"
+  ASSETS_PATH = ROOT_PATH / "usgs_lidar/"
   LAZ_PATH = DATA_PATH / "laz"
   TIF_PATH = DATA_PATH / "tif"
   SHP_PATH = DATA_PATH / "shp"

@@ -3,7 +3,7 @@ import sys, os
 import logging, logging.handlers
 from logging.handlers import TimedRotatingFileHandler
 formatter = logging.Formatter("%(asctime)s — %(name)s — %(levelname)s — %(message)s")
-log_file = "app.log"
+log_file = "info.log"
 
 # Logging Levels #
 ##############
